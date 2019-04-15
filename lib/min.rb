@@ -13,7 +13,7 @@ def get_the_min(groceries)
   groceries.each{|type, item|
     item.each {|food|
       start_char = food[0]
-      
+
     }
   }
 end
