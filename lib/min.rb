@@ -9,11 +9,6 @@ groceries = {
 }
 
 def get_the_min(groceries)
-  min_list = []
-  groceries.each{|type, item|
-    item.each {|food|
-      start_char = food[0]
-
-    }
-  }
+  min_list = groceries.values.flatten.min
+    
 end
